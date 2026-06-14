@@ -21,14 +21,11 @@ export async function POST(req: NextRequest) {
 Carefully analyze the attached CIPL image.
 
 Extract the following specific fields:
-- Name
-- PO Number
-- QTY
-- QTY_UNIT
-- Weight in KG
-- Dimension
-- Time
 - Date
+- AWB
+- Shipper
+- Consignee
+
 
 If you detect ANY other fields, labels, or notes on the document that do not fit into the above categories,
 capture them as key-value pairs inside a single nested object called "metadata".
@@ -37,14 +34,10 @@ Return ONLY a valid JSON object. Do not include any markdown formatting like \`\
 
 Use this exact JSON schema structure:
 {
-  "Name": "",
-  "PO Number": "",
-  "QTY": "",
-  "QTY_UNIT": "",
-  "Weight in KG": "",
-  "Dimension": "",
-  "Time": "",
   "Date": "",
+  "AWB": "",
+  "Shipper": "",
+  "Consignee": "",
   "metadata": {
     "AnyOtherField1": "value"
   }

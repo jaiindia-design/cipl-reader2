@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'CIPL -  document Data Extractor research',
+  title: 'CIPL -  document data extractor',
   description: 'Extract structured data from handwritten or computer generated CIPL document',
 }
 

@@ -2,7 +2,7 @@
 
 import { useState, useRef, useCallback } from 'react'
 
-const STANDARD_FIELDS = ['Name', 'PO Number', 'QTY', 'QTY_UNIT', 'Weight in KG', 'Dimension', 'Time', 'Date']
+const STANDARD_FIELDS = ['Date', 'AWB', 'Shipper', 'Consignee']
 
 type ExtractedData = Record<string, any>
 
