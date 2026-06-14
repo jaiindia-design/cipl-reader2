@@ -96,8 +96,8 @@ export default function Home() {
         <div className="max-w-5xl mx-auto px-6 py-6 flex items-center justify-between">
           <div className="flex items-center gap-4">
             <div>
-              <h1 className="text-2xl font-bold text-[#0f2b4e] uppercase tracking-wide">GRN - Supplier document data Extractor</h1>
-              <p className="text-sm text-gray-500">GRN - Supplier document data reader</p>
+              <h1 className="text-2xl font-bold text-[#0f2b4e] uppercase tracking-wide">CIPL document data Extractor</h1>
+              <p className="text-sm text-gray-500">CIPL document data reader</p>
             </div>
           </div>
         </div>
